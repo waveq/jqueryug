@@ -8,7 +8,6 @@ $(document).ready(function (){
 		$(".names").checkNames();//.addClass('gr');
 		$("#nick").regexTest({pattern: "^[A-ZĄĆĘŁŃÓŚŹŻa-ząćęłóńśźż]{1}[A-ZĄĆĘŁŃÓŚŹŻa-ząćęłóńśźż]*$"});
 		$("#email").checkEmail();//.addClass('gr');
-		// {pattern: /^a$/}
 	}
 		
 });
